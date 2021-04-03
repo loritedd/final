@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#Play">Play</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="4.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>“A champion is simply someone who did not give up when they wanted to.“ <br>
+                        Tom Landry</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="3.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>“Life is ten percent what happens to you, and ninety percent how you respond to it.“<br>
+                        Lou Holtz</h5>                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="2.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>“If you want to win, do the ordinary things better than anyone else does them day in and day out.“ <br>
+                        Chuck Noll</h5>                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <section id="Play" class="Play">
+            <div class="container">
+                <section class="section">
+                <div class="input-group">
+                    <span class="input-group-text">Players of team </span>
+                    <textarea id="form-control"  placeholder="use 'enter' to write players" rows="4"></textarea>
+                    <textarea id="form-control2"  placeholder="use 'enter' to write players" rows="4"></textarea>
+                    
+                  </div>
+                <br>
+                  <button class="button-11">Try it</button>
+                 <div class="out-block out-11" style="
+    height: 20px;"></div>
+                    <br>
+                    <div class="out-block out-22" style="
+                    height: 20px;"></div>
+
+
+                </section>
+
+                  <br>
+                  
+                  <section>
+                <div class="input-group">
+                    <span class="input-group-text">How many goals scored the team</span>
+                    <input type="number" max="7" min="0" aria-label="First team" placeholder="for Team 1" class="form-control3"/>
+                    <input type="number" max="7" min="0" aria-label="Second team" placeholder="for Team 2" class="form-control4"  />
+                  </div>
+                  <br>
+
+        
+              <button class="button-22">Display</button>
+              <br>
+              <br>          
+              <h4> First team of possible ways scoring goal: </h4>
+              <br>
+
+             <div class="out-block out-33"> 
+                <br>          
+
+             </div>
+             <h4> Second team of possible ways scoring goal: </h4>
+             <div class="out-block out-44">
+            </div>
+
+
+            <div class="out-block out-55">
+            </div>
+
+            </section>
+
+        </section>
+    </div>
+
+    </div>
+
+
+
+    <section id="contact" class="contact-section ">
+        <div class="contact-section-header col-lg-7 col-md-9 col-sm-12">
+            <div class="contact-links">
+                <a href="https://web.facebook.com/astanaituniversity/?_rdc=1&_rdr" target="_blank"
+                    class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a>
+                <a id="profile-link" href="https://www.tiktok.com/@astana_it_university?source=h5_m" target="_blank"
+                    class="btn contact-details">
+                    <i class="fab fa-tiktok"></i>Tiktok</a>
+
+                <a href="https://www.youtube.com/channel/UCRUN152kvKPdLiYvcpOyFkQ" target="_blank"
+                    class="btn contact-details">
+                    <i class="fab fa-youtube">
+                    </i>
+                    Youtube</a>
+                <a href="info@astanait.edu.kz" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+                <a href="+7 (7172)645-710    " class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
